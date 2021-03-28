@@ -9,9 +9,10 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: 'Welcome to the Professional Website of',
-  name: 'Jeremy David Rice, Esq.',
-  subtitle: "I am better than everyone else. If you don't believe me, you are stupid.",
+  title: "I'm",
+  name: 'Jeremy Rice.',
+  subtitle:
+    "I'm a Connecticut based full-stack web developer, educator and musician creating a wide variety of web applications. Start scrolling to learn more about me.",
   cta: '',
 };
 
