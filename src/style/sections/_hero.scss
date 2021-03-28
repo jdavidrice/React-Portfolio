@@ -5,6 +5,7 @@
   align-items: center;
   border-bottom: 0px;
   background: $white-color;
+  font-style: --font-1;
   font-weight: 400;
   color: $white-color;
   padding: 0rem 5.6rem;
@@ -46,6 +47,7 @@
   }
 
   .hero-subtitle {
+    font-style: "IBM Plex Serif";
     font-size: 2.6rem;
     font-weight: 500;
     margin-bottom: 3.2rem;
