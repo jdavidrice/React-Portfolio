@@ -7,6 +7,14 @@ export const headData = {
   description: 'Welcome to my website',
 };
 
+// HEADER DATA
+export const headerData = {
+  home: '',
+  about: '',
+  portfolio: '',
+  contact: '',
+};
+
 // HERO DATA
 export const heroData = {
   title: "I'm",
@@ -91,5 +99,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
