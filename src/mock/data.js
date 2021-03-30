@@ -8,7 +8,7 @@ export const headData = {
 };
 
 // HEADER DATA
-export const headerData = {
+export const navbarData = {
   home: '',
   about: '',
   portfolio: '',

@@ -1,11 +1,12 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable prettier/prettier */
 import React, { useContext } from 'react';
 import { Container } from 'react-bootstrap';
 import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
 
-const Header = () => {
-  const { header } = useContext(PortfolioContext);
+const Navbar = () => {
+  const { navbar } = useContext(PortfolioContext);
 
   return (
     <header className="s-header">
@@ -25,7 +26,7 @@ const Header = () => {
               </li>
               <li>
                 <Link to="projects" smooth duration={1000} className="center">
-                  Home
+                  Projects
                 </Link>
               </li>
               <li>
@@ -44,4 +45,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Navbar;
