@@ -86,7 +86,7 @@
 }
 
 .s-header__nav .current a {
-    color: var(--color-2);
+    color: var(white);
 }
 
 /* ------------------------------------------------------------------- 
@@ -98,7 +98,7 @@
     font-size: 1.3rem;
     text-transform: uppercase;
     letter-spacing: .4rem;
-    background-color: var(--color-2);
+    background-color: var(white);
     color: white;
     width: var(--header-height);
     height: var(--header-height);
@@ -144,7 +144,7 @@
 }
 
 .s-header__menu-toggle.is-clicked .s-header__menu-icon {
-    background-color: rgba(255, 255, 255, 0);
+    background-color: blue;
     -webkit-transition: all .1s;
     transition: all .1s;
 }
@@ -208,11 +208,11 @@
         display: block;
         text-align: left;
         margin: 0 0 var(--vspace-1_75) 0;
-        border-top: 1px dotted rgba(255, 255, 255, 0.06);
+        border-top: 1px dotted rgba(255, 255, 255, 1);
     }
     .s-header__nav ul li {
         display: block;
-        border-bottom: 1px dotted rgba(255, 255, 255, 0.06);
+        border-bottom: 1px dotted rgba(255, 255, 255, 1);
         position: relative;
     }
     .s-header__nav ul li a {
@@ -225,7 +225,7 @@
         content: counter(ctr, decimal-leading-zero);
         counter-increment: ctr;
         font-size: var(--text-xs);
-        color: rgba(255, 255, 255, 0.18);
+        color: rgba(255, 255, 255, 1);
         position: absolute;
         top: var(--vspace-0_5);
         left: 0;
