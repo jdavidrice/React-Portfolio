@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&family=Inter:wght@300;400;500;600;700&display=swap");
 h1 {
   font-weight: 700;
 }
 
 p,
 a {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'IBM Plex Serif', sans-serif;
   font-size: $default-font-size;
 }
 
@@ -35,11 +34,12 @@ a:hover {
 }
 
 .dark-blue-text {
-  color: $dark-blue-text !important;
+  color: $dark-blue-text;
 }
 
 .text-color-main {
   background-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 

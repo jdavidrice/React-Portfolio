@@ -16,4 +16,5 @@ module.exports = {
     'react/require-default-props': 'off',
   },
   parser: 'babel-eslint',
+  ignorePatterns: 'plugins.js',
 };
