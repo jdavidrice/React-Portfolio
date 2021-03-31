@@ -35,66 +35,70 @@ export const aboutData = {
 // PROJECTS DATA
 export const projectsData = [
   {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    id: nanoid(1),
+    img: 'bigmood.png',
+    title: 'BigMood',
+    info: 'The "BigMood" app gives users an easy way to track their mood throughout the day.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://bigmoodapp.herokuapp.com/',
+    repo: 'https://github.com/jdavidrice/BigMood',
   },
   {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    id: nanoid(2),
+    img: 'g-burger_app.png',
+    title: 'Eat-Da-Burger!',
+    info:
+      'This is a "burger logger" app that is made with MySQL, Node, Express, Handlebars and a homemade ORM.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://warm-sea-12669.herokuapp.com/',
+    repo: 'https://github.com/jdavidrice/burger',
   },
   {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    id: nanoid(3),
+    img: 'query_cuisine.png',
+    title: 'Query Cuisine',
+    info:
+      'A simple food app that allows users to search for recipes based on ingredients that they have on hand.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://jdavidrice.github.io/Query-Cuisine/',
+    repo: 'https://github.com/jdavidrice/Query-Cuisine',
   },
   {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    id: nanoid(4),
+    img: 'g-weather_dash.jpg',
+    title: 'Weather Dashboard',
+    info:
+      'This app is a weather dashboard that will run in the browser and features dynamically updated HTML and CSS. It uses the OpenWeather API to retrieve weather data for cities.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://jdavidrice.github.io/Weather-Dashboard',
+    repo: 'https://github.com/jdavidrice/Weather-Dashboard',
   },
   {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    id: nanoid(5),
+    img: 'budget_app.png',
+    title: 'Online-Offline Budget Tracker',
+    info: 'A simple budget tracking app that uses IndexedDB for offline use.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://best-budget-tracker-app.herokuapp.com',
+    repo: 'https://github.com/jdavidrice/Online-Offline-Budget-Tracker',
   },
   {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    id: nanoid(6),
+    img: 'emp_dir.png',
+    title: 'React Employee Directory',
+    info:
+      'A sample employee directory that uses React and allows users to sort data by each column heading, and to search for last names.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://jdavidrice.github.io/React-Employee-Directory/',
+    repo: 'https://github.com/jdavidrice/React-Employee-Directory',
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: "If you are interested in working with me, please don't hesitate to get in touch.",
+  btn: 'Email me',
+  email: 'jdavidrice@gmail.com',
 };
 
 // FOOTER DATA
