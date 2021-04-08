@@ -65,7 +65,7 @@ export const projectsData = [
   },
   {
     id: nanoid(4),
-    img: 'g-weather_dash.jpg',
+    img: 'weather_dashboard.png',
     title: 'Weather Dashboard',
     info:
       'This app is a weather dashboard that will run in the browser and features dynamically updated HTML and CSS. It uses the OpenWeather API to retrieve weather data for cities.',

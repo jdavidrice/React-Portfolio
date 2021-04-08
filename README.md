@@ -37,7 +37,7 @@ Personal website/contact page/portfolio with modern, responsive design. Uses the
  
 ## Credits
 
-Thank you to [Jacob Martinez](https://github.com/cobidev) for providing the original template for this site.  
+Thank you to [Jacobo Martinez](https://github.com/cobidev) for providing the original template for this site.  
 
 ## License  
 
