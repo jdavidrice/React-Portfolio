@@ -29,13 +29,24 @@ export const aboutData = {
   img: 'profile.png',
   paragraphOne:
     "After being a teacher for fifteen years, I've decided to leave the world of public education and to pursue a career in web development. I have built this website to collect and display some examples of my work. I am currently attending the UCONN Coding Boot Camp: Full Stack Flex Program, and will complete the course in April 2021. In my spare time, I enjoy playing the guitar, drums, mandolin, and saxophone, and learning about science, history, technology, philosophy, and meditation.",
-  resume: 'https://drive.google.com/file/d/1hovx5wP5SHD8VQ493U6MhhVdN3wCbw64/view?usp=sharing',
+  resume:
+    'https://docs.google.com/document/d/e/2PACX-1vQWSCQcBHQa67FSnjYtP125bmYE3FoMNh94nyk9WADhA_fg9O8HJXqMYG8zUGBMp0z6WBXwcPhDDBPN/pub',
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(1),
+    img: 'shopportal.png',
+    title: 'ShopPortal',
+    info:
+      'An open source eCommerce platform powered by the MERN stack. It is designed to allow anyone to host their own online shop with ease.',
+    info2: '',
+    url: 'https://shopportal-lpx.herokuapp.com/shop',
+    repo: 'https://github.com/jdavidrice/shop-portal',
+  },
+  {
+    id: nanoid(2),
     img: 'bigmood.png',
     title: 'BigMood',
     info: 'The "BigMood" app gives users an easy way to track their mood throughout the day.',
@@ -44,7 +55,7 @@ export const projectsData = [
     repo: 'https://github.com/jdavidrice/BigMood',
   },
   {
-    id: nanoid(2),
+    id: nanoid(3),
     img: 'g-burger_app.png',
     title: 'Eat-Da-Burger!',
     info:
@@ -54,7 +65,7 @@ export const projectsData = [
     repo: 'https://github.com/jdavidrice/burger',
   },
   {
-    id: nanoid(3),
+    id: nanoid(4),
     img: 'query_cuisine.png',
     title: 'Query Cuisine',
     info:
@@ -64,7 +75,7 @@ export const projectsData = [
     repo: 'https://github.com/jdavidrice/Query-Cuisine',
   },
   {
-    id: nanoid(4),
+    id: nanoid(5),
     img: 'weather_dashboard.png',
     title: 'Weather Dashboard',
     info:
@@ -74,23 +85,13 @@ export const projectsData = [
     repo: 'https://github.com/jdavidrice/Weather-Dashboard',
   },
   {
-    id: nanoid(5),
+    id: nanoid(6),
     img: 'budget_app.png',
     title: 'Online-Offline Budget Tracker',
     info: 'A simple budget tracking app that uses IndexedDB for offline use.',
     info2: '',
     url: 'https://best-budget-tracker-app.herokuapp.com',
     repo: 'https://github.com/jdavidrice/Online-Offline-Budget-Tracker',
-  },
-  {
-    id: nanoid(6),
-    img: 'emp_dir.png',
-    title: 'React Employee Directory',
-    info:
-      'A sample employee directory that uses React and allows users to sort data by each column heading, and to search for last names.',
-    info2: '',
-    url: 'https://jdavidrice.github.io/React-Employee-Directory/',
-    repo: 'https://github.com/jdavidrice/React-Employee-Directory',
   },
 ];
 
