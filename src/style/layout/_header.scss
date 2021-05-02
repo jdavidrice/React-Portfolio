@@ -77,8 +77,9 @@
     display: block;
     height: var(--header-height);
     line-height: var(--header-height);
+    font-size: 2.45rem;
     padding: 0 1.6rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .s-header__nav a:hover, .s-header__nav a:focus {
