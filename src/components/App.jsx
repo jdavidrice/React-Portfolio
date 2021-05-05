@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Preloader from './Preloader/Preloader';
 import Navbar from './Navbar/Navbar';
 import Hero from './Hero/Hero';
 import About from './About/About';
@@ -36,6 +37,7 @@ function App() {
 
   return (
     <PortfolioProvider value={{ navbar, hero, about, projects, contact, footer }}>
+      {/* <Preloader /> */}
       <Navbar />
       <Hero />
       <About />
