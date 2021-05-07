@@ -49,6 +49,7 @@ const Projects = () => {
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
+                      {/* <div className="display: flex; flex-flow: row wrap; align-content: center"> */}
                       <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -68,6 +69,7 @@ const Projects = () => {
                           Source Code
                         </a>
                       )}
+                      {/* </div> */}
                     </div>
                   </Fade>
                 </Col>
