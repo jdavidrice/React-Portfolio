@@ -7,7 +7,7 @@ import PortfolioContext from '../../context/context';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const { img, paragraphOne, resume } = about;
+  const { img, paragraphOne, resume, certificate } = about;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -50,6 +50,18 @@ const About = () => {
                       href={resume}
                     >
                       Resume
+                    </a>
+                  </span>
+                )}
+                {certificate && (
+                  <span className="d-flex mt-3">
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="cta-btn cta-btn--hero"
+                      href={certificate}
+                    >
+                      Certificate
                     </a>
                   </span>
                 )}

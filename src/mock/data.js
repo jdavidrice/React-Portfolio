@@ -28,9 +28,10 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.png',
   paragraphOne:
-    "After being a teacher for fifteen years, I've decided to leave the world of public education and to pursue a career in web development. I have built this website to collect and display some examples of my work. I am currently attending the UCONN Coding Boot Camp: Full Stack Flex Program, and will complete the course in April 2021. In my spare time, I enjoy playing the guitar, drums, mandolin, and saxophone, and learning about science, history, technology, philosophy, and meditation.",
+    "After being a teacher for fifteen years, I've decided to leave the world of public education and to pursue a career in web development. I have built this website to collect and display some examples of my work. I recently completed a UCONN Coding Boot Camp: Full Stack Flex Program, where I learned the fundamentals of working with MERN stack web applications. In my spare time, I enjoy playing the guitar, drums, mandolin, and saxophone, and learning about science, history, technology, philosophy, and meditation.",
   resume:
     'https://docs.google.com/document/d/e/2PACX-1vQWSCQcBHQa67FSnjYtP125bmYE3FoMNh94nyk9WADhA_fg9O8HJXqMYG8zUGBMp0z6WBXwcPhDDBPN/pub',
+  certificate: 'https://drive.google.com/file/d/1aiFHvkpvjFGUhdm8XkJ1-vj-BWaBt515/view?usp=sharing',
 };
 
 // PROJECTS DATA
