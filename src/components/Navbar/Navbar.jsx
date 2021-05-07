@@ -35,9 +35,9 @@ const Navbar = () => {
             </ul>
           </nav>
         </div>
-        <a className="s-header__menu-toggle" href="#0" title="Menu">
+        {/* <a className="s-header__menu-toggle" href="#0" title="Menu">
           <span className="s-header__menu-icon" />
-        </a>
+        </a> */}
       </Container>
     </header>
   );
