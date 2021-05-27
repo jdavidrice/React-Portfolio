@@ -7,7 +7,7 @@
 </span>  
 A collection of my professional coding projects, as well as some background and contact information about me.
 
-[Link to published website](https://reactportfoliomain.gatsbyjs.io/)
+[Link to published website](https://jeremyrice.gatsbyjs.io/)
 
 ## Table of Contents  
 *   [Description](#Description) 
