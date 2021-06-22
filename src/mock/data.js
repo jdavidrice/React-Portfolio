@@ -28,7 +28,9 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.png',
   paragraphOne:
-    "After being a teacher for fifteen years, I've decided to leave the world of public education and to pursue a career in web development. I have built this website to collect and display some examples of my work. I recently completed a UCONN Coding Boot Camp: Full Stack Flex Program, where I learned the fundamentals of working with MERN stack web applications. In my spare time, I enjoy playing the guitar, drums, mandolin, and saxophone, and learning about science, history, technology, philosophy, and meditation.",
+    "After being a teacher for fifteen years, I've decided to leave the world of public education and to pursue a career in web development. I have built this website to collect and display some examples of my work. I recently completed the UCONN Coding Boot Camp: Full Stack Flex Program, where I learned the fundamentals of working with MERN stack web applications.",
+  paragraphTwo:
+    'The projects that I have created so far use HTML, CSS, and JavaScript, as well as Node, React, Handlebars, Express, MongoDB, MySQL, and Firebase. I have some experience working with Materialize and Material UI, and I just started using Tailwind CSS. My React portfolio uses Gatsby, GraphQL, and Sass. I am focused on improving my React skills at this time, but plan on using Vue and Ember in the near future. I am looking to work on projects that will challenge me to utilize a variety of modern frameworks and technologies, so that I can continue to develop my skills as a developer. Eventually, I would like to incorporate my experience in education with my technology skills to teach others about web development.',
   resume:
     'https://docs.google.com/document/d/e/2PACX-1vQWSCQcBHQa67FSnjYtP125bmYE3FoMNh94nyk9WADhA_fg9O8HJXqMYG8zUGBMp0z6WBXwcPhDDBPN/pub',
   certificate: 'https://drive.google.com/file/d/1aiFHvkpvjFGUhdm8XkJ1-vj-BWaBt515/view?usp=sharing',
@@ -42,7 +44,7 @@ export const projectsData = [
     title: 'ShopPortal',
     info:
       'An open source eCommerce platform powered by the MERN stack. It is designed to allow anyone to host their own online shop with ease.',
-    info2: '',
+    info2: 'Made with axios, babel, express, material-ui, mongoose, react-masonry-css, and stripe.',
     url: 'https://shopportal-lpx.herokuapp.com/shop',
     repo: 'https://github.com/jdavidrice/shop-portal',
   },
@@ -51,7 +53,7 @@ export const projectsData = [
     img: 'bigmood.png',
     title: 'BigMood',
     info: 'The "BigMood" app gives users an easy way to track their mood throughout the day.',
-    info2: '',
+    info2: 'Made with bcryptjs, express-handlebars, mysql2, passport, and sequelize.',
     url: 'https://bigmoodapp.herokuapp.com/',
     repo: 'https://github.com/jdavidrice/BigMood',
   },
@@ -60,7 +62,7 @@ export const projectsData = [
     img: 'g-burger_app.png',
     title: 'Eat-Da-Burger!',
     info:
-      'This is a "burger logger" app that is made with MySQL, Node, Express, Handlebars and a homemade ORM.',
+      'This is a "burger logger" app that is made with express-handlebars, mysql, node, passport, and a homemade ORM.',
     info2: '',
     url: 'https://warm-sea-12669.herokuapp.com/',
     repo: 'https://github.com/jdavidrice/burger',
@@ -71,7 +73,7 @@ export const projectsData = [
     title: 'Query Cuisine',
     info:
       'A simple food app that allows users to search for recipes based on ingredients that they have on hand.',
-    info2: '',
+    info2: 'Made with jQuery and the Spoonacular recipe and food API.',
     url: 'https://jdavidrice.github.io/Query-Cuisine/',
     repo: 'https://github.com/jdavidrice/Query-Cuisine',
   },
@@ -99,7 +101,7 @@ export const projectsData = [
 // CONTACT DATA
 export const contactData = {
   cta: "If you are interested in working with me, please don't hesitate to get in touch.",
-  btn: 'Email me',
+  btn: 'jdavidrice@gmail.com',
   email: 'jdavidrice@gmail.com',
 };
 
