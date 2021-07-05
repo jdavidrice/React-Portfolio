@@ -9,6 +9,12 @@
     padding-top: 5rem;
   }
 
+  .project-links-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
   .project-wrapper {
     margin-bottom: 15rem;
 

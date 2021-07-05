@@ -49,27 +49,27 @@ const Projects = () => {
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
-                      {/* <div className="display: flex; flex-flow: row wrap; align-content: center"> */}
-                      <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="cta-btn text-color-main"
-                        href={url || '#!'}
-                      >
-                        See Live
-                      </a>
-
-                      {repo && (
+                      <div className="project-links-div">
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
                           className="cta-btn text-color-main"
-                          href={repo}
+                          href={url || '#!'}
                         >
-                          Source Code
+                          See Live
                         </a>
-                      )}
-                      {/* </div> */}
+
+                        {repo && (
+                          <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="cta-btn text-color-main"
+                            href={repo}
+                          >
+                            Source Code
+                          </a>
+                        )}
+                      </div>
                     </div>
                   </Fade>
                 </Col>
