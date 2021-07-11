@@ -39,30 +39,32 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">{paragraphOne}</p>
                 <p className="about-wrapper__info-text">{paragraphTwo}</p>
-                {resume && (
-                  <span className="d-flex mt-3">
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="cta-btn cta-btn--hero"
-                      href={resume}
-                    >
-                      Resume
-                    </a>
-                  </span>
-                )}
-                {certificate && (
-                  <span className="d-flex mt-3">
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="cta-btn cta-btn--hero"
-                      href={certificate}
-                    >
-                      Certificate
-                    </a>
-                  </span>
-                )}
+                <div className="res-cert-btns-div">
+                  {resume && (
+                    <span className="d-flex mt-3">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="cta-btn cta-btn--hero"
+                        href={resume}
+                      >
+                        Resume
+                      </a>
+                    </span>
+                  )}
+                  {certificate && (
+                    <span className="d-flex mt-3">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="cta-btn cta-btn--hero"
+                        href={certificate}
+                      >
+                        Certificate
+                      </a>
+                    </span>
+                  )}
+                </div>
               </div>
             </Fade>
           </Col>

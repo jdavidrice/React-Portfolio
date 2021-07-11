@@ -40,16 +40,27 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(1),
+    img: 'instaclone.png',
+    title: 'Instaclone',
+    info:
+      'An Instagram clone that uses React, Firebase, LoadTest, Vercel, React Testing Library, Cypress E2E Testing, and Tailwind CSS.',
+    info2: '',
+    url: 'https://instaclone-jdavidrice.vercel.app/login',
+    repo: 'https://github.com/jdavidrice/instaclone',
+  },
+  {
+    id: nanoid(2),
     img: 'shopportal.png',
     title: 'ShopPortal',
     info:
       'An open source eCommerce platform powered by the MERN stack. It is designed to allow anyone to host their own online shop with ease.',
-    info2: 'Made with axios, babel, express, material-ui, mongoose, react-masonry-css, and stripe.',
+    info2:
+      'Made with React, axios, babel, express, material-ui, mongoose, react-masonry-css, and stripe.',
     url: 'https://shopportal-lpx.herokuapp.com/shop',
     repo: 'https://github.com/jdavidrice/shop-portal',
   },
   {
-    id: nanoid(2),
+    id: nanoid(3),
     img: 'bigmood.png',
     title: 'BigMood',
     info: 'The "BigMood" app gives users an easy way to track their mood throughout the day.',
@@ -58,7 +69,7 @@ export const projectsData = [
     repo: 'https://github.com/jdavidrice/BigMood',
   },
   {
-    id: nanoid(3),
+    id: nanoid(4),
     img: 'g-burger_app.png',
     title: 'Eat-Da-Burger!',
     info:
@@ -68,7 +79,7 @@ export const projectsData = [
     repo: 'https://github.com/jdavidrice/burger',
   },
   {
-    id: nanoid(4),
+    id: nanoid(5),
     img: 'query_cuisine.png',
     title: 'Query Cuisine',
     info:
@@ -78,7 +89,7 @@ export const projectsData = [
     repo: 'https://github.com/jdavidrice/Query-Cuisine',
   },
   {
-    id: nanoid(5),
+    id: nanoid(6),
     img: 'weather_dashboard.png',
     title: 'Weather Dashboard',
     info:
@@ -87,15 +98,15 @@ export const projectsData = [
     url: 'https://jdavidrice.github.io/Weather-Dashboard',
     repo: 'https://github.com/jdavidrice/Weather-Dashboard',
   },
-  {
-    id: nanoid(6),
-    img: 'budget_app.png',
-    title: 'Online-Offline Budget Tracker',
-    info: 'A simple budget tracking app that uses IndexedDB for offline use.',
-    info2: '',
-    url: 'https://best-budget-tracker-app.herokuapp.com',
-    repo: 'https://github.com/jdavidrice/Online-Offline-Budget-Tracker',
-  },
+  // {
+  //   id: nanoid(),
+  //   img: 'budget_app.png',
+  //   title: 'Online-Offline Budget Tracker',
+  //   info: 'A simple budget tracking app that uses IndexedDB for offline use.',
+  //   info2: '',
+  //   url: 'https://best-budget-tracker-app.herokuapp.com',
+  //   repo: 'https://github.com/jdavidrice/Online-Offline-Budget-Tracker',
+  // },
 ];
 
 // CONTACT DATA
