@@ -49,17 +49,6 @@ export const projectsData = [
     repo: 'https://github.com/jdavidrice/instaclone',
   },
   {
-    id: nanoid(2),
-    img: 'shopportal.png',
-    title: 'ShopPortal',
-    info:
-      'An open source eCommerce platform powered by the MERN stack. It is designed to allow anyone to host their own online shop with ease.',
-    info2:
-      'Made with React, axios, babel, express, material-ui, mongoose, react-masonry-css, and stripe.',
-    url: 'https://shopportal-lpx.herokuapp.com/shop',
-    repo: 'https://github.com/jdavidrice/shop-portal',
-  },
-  {
     id: nanoid(3),
     img: 'bigmood.png',
     title: 'BigMood',
