@@ -17,11 +17,10 @@ export const navbarData = {
 
 // HERO DATA
 export const heroData = {
-  title: "I'm",
+  title: "Hello, I'm",
   name: 'Jeremy Rice.',
-  subtitle:
-    "I'm a Connecticut based full-stack web developer, educator and musician creating a wide variety of web applications. Start scrolling to learn more about me.",
-  cta: '',
+  subtitle: 'Technologist. Musician. Philosopher. Entry-level Web Developer.',
+  cta: 'Learn More',
 };
 
 // ABOUT DATA
@@ -48,17 +47,17 @@ export const projectsData = [
     url: 'https://instaclone-jdavidrice.vercel.app/login',
     repo: 'https://github.com/jdavidrice/instaclone',
   },
-  {
-    id: nanoid(2),
-    img: 'shopportal.png',
-    title: 'ShopPortal',
-    info:
-      'An open source eCommerce platform powered by the MERN stack. It is designed to allow anyone to host their own online shop with ease.',
-    info2:
-      'Made with React, axios, babel, express, material-ui, mongoose, react-masonry-css, and stripe.',
-    url: 'https://shopportal-lpx.herokuapp.com/shop',
-    repo: 'https://github.com/jdavidrice/shop-portal',
-  },
+  // {
+  //   id: nanoid(2),
+  //   img: 'shopportal.png',
+  //   title: 'ShopPortal',
+  //   info:
+  //     'An open source eCommerce platform powered by the MERN stack. It is designed to allow anyone to host their own online shop with ease.',
+  //   info2:
+  //     'Made with React, axios, babel, express, material-ui, mongoose, react-masonry-css, and stripe.',
+  //   url: 'https://shopportal-lpx.herokuapp.com/shop',
+  //   repo: 'https://github.com/jdavidrice/shop-portal',
+  // },
   {
     id: nanoid(3),
     img: 'bigmood.png',
