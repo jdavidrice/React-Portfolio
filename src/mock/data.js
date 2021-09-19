@@ -17,7 +17,7 @@ export const navbarData = {
 
 // HERO DATA
 export const heroData = {
-  title: "I'm",
+  title: "Hello, I'm",
   name: 'Jeremy Rice.',
   subtitle:
     "I'm a Connecticut based full-stack web developer, educator and musician creating a wide variety of web applications. Start scrolling to learn more about me.",
