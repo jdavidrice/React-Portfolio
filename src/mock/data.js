@@ -29,7 +29,7 @@ export const aboutData = {
   paragraphOne:
     "After being a teacher for fifteen years, I've decided to leave the world of public education and to pursue a career in web development. I have built this website to collect and display some examples of my work. I recently completed the UCONN Coding Boot Camp: Full Stack Flex Program, where I learned the fundamentals of working with MERN stack web applications.",
   paragraphTwo:
-    'The projects that I have created so far use HTML, CSS, and JavaScript, as well as Node, React, Handlebars, Express, MongoDB, MySQL, and Firebase. I have some experience working with Material UI and Tailwind CSS. My React portfolio uses Gatsby, GraphQL, and Sass. I am focused on improving my React skills at this time, and plan on exploring other frameworks in the future. I am looking to work on projects that will challenge me to utilize a variety of modern technologies, so that I can continue to develop my skills as a developer.',
+    'The projects that I have created so far use HTML, CSS, and JavaScript, as well as Node, React, Handlebars, Express, MongoDB, MySQL, and Firebase. I have some experience working with Bootstrap, Material UI and Tailwind CSS. My React portfolio uses Gatsby, GraphQL, and Sass. I am focused on improving my React skills at this time, and plan on exploring other frameworks in the future. I am looking to work on projects that will challenge me to utilize a variety of modern technologies, so that I can continue to develop my skills as a developer.',
   resume:
     'https://docs.google.com/document/d/e/2PACX-1vQWSCQcBHQa67FSnjYtP125bmYE3FoMNh94nyk9WADhA_fg9O8HJXqMYG8zUGBMp0z6WBXwcPhDDBPN/pub',
   certificate: 'https://drive.google.com/file/d/1aiFHvkpvjFGUhdm8XkJ1-vj-BWaBt515/view?usp=sharing',
