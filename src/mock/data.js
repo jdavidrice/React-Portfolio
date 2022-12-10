@@ -19,7 +19,7 @@ export const navbarData = {
 export const heroData = {
   title: "Hello, I'm",
   name: 'Jeremy Rice.',
-  subtitle: `I'm a full stack web developer, currently an Associate at Infosys. I have training in MERN web apps, and in Angular and the Java Spring Framework.`,
+  subtitle: `I'm a full stack web developer, with training in MERN web apps, Angular, and the Java Spring Framework.`,
   cta: 'Learn More',
 };
 
